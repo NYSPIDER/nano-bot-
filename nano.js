@@ -1,8 +1,6 @@
 const Discord = require('discord.js');
-
 const PREFIX  ="~";
 const bot     = new Discord.Client();
-
 
 // erro messages 
 var error= ["**Someone Touch My Spaghet!?**","**Do You Know the Way!**","**WROOG**","**Wanna Come Back To My Crib?**"];
