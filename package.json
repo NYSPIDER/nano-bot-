@@ -10,4 +10,13 @@
     "discord.js": "11.1.0",
     "request": "2.81.0"
   },
+  "author": "omar kandil",
+  "license": "ISC",
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@heroku.com:elegant-insults.git"
+  }
 }
