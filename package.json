@@ -1,16 +1,13 @@
 {
-  "name": "nanobot",
+  "name": "Test",
+  "description": "Test",
   "version": "0.0.0",
-  "description": "my server bot",
   "main": "nano.js",
   "scripts": {
-    "start": "node nano.js
+    "start": "node nano.js"
   },
-  "dependencies":{
+  "dependencies": {
     "discord.js": "11.1.0",
     "request": "2.81.0"
-  },
-  "author": "omar kandil",
-  "license": "ISC"
   }
 }
