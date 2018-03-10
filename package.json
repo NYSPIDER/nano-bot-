@@ -1,6 +1,6 @@
 {
-  "name": "Test",
-  "description": "Test",
+  "name": "nano bot",
+  "description": "bot for my server",
   "version": "0.0.0",
   "main": "nano.js",
   "scripts": {
