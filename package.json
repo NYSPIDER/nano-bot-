@@ -10,7 +10,7 @@
     "discord.js": "11.1.0",
     "request": "2.81.0"
   },
-  "author":{ "omar kandil",
+  "author": "omar kandil",
   "license": "ISC"
   }
 }
