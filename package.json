@@ -1,6 +1,6 @@
 {
-  "name": "Test",
-  "description": "Test",
+  "name": "nanobot",
+  "description": "my frist bot ",
   "version": "0.0.0",
   "main": "nano.js",
   "scripts": {
