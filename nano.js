@@ -15,13 +15,13 @@ function play (connection,message){
 // welcome , good bye messages . and picking roles 
 bot.on("guildMemberAdd",function(member)
 {
-    member.guild.channels.find("name","general").sendMessage("Welcome to **Sketcher** :wink: "+member.toString()+" please check the "+member.guild.channels.find("name","rules") +" channel and use "+member.guild.channels.find("name","bot-spam") +" channel for bot commands");
+    member.guild.channels.find("name","welcome").sendMessage("Welcome to **Sketcher** :wink: "+member.toString()+" please check the "+member.guild.channels.find("name","rules") +" channel and use "+member.guild.channels.find("name","bot-spam") +" channel for bot commands");
     member.addRole(member.guild.roles.find("name","league of leagends"));
 });
 
 bot.on("guildMemberRemove",function(member)
 {
-    member.guild.channels.find("name","general").sendMessage("**"+member.toString()+"** it takes forever to say goodbye , **False**. it takes exactly .978 secounds to say goodbye.");
+    member.guild.channels.find("name","welcome").sendMessage("**"+member.toString()+"** it takes forever to say goodbye , **False**. it takes exactly .978 secounds to say goodbye.");
 });
 
 //commands to do 
@@ -35,7 +35,7 @@ bot.on("message",function(message)
 
     switch(args[0].toLowerCase()){
         case "help":
-        message.channel.sendMessage("lo");
+        message.channel.sendMessage("NO I WONT :P");
             break;
         
         default:
