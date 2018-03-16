@@ -1,9 +1,9 @@
 const Discord = require('discord.js');
-const PREFIX  ="~";
+const PREFIX  ="=>";
 const bot     = new Discord.Client();
 
 // erro messages 
-var error= ["**Someone Touch My Spaghet!?**","**Do You Know the Way!** :AniKnuckles:  ","**WROOG**","**Wanna Come Back To My Crib?**"];
+var error= ["```Someone Touch My Spaghet!?```","```Do You Know the Way!:AniKnuckles:```","```WROOG```","```Wanna Come Back To My Crib?```"];
 var servers ={};
 function getRandomInt(max) {
     return Math.floor(Math.random() * Math.floor(max));
